@@ -52,5 +52,13 @@ public final class IdealizedPageRank {
         System.out.println("Links:");
         linksRDD.take(4).forEach(System.out::println);
         
+        JavaPairRDD<String, Double> ranks = linksRDD.mapValues(v -> {
+            String[] tmp = v.split(" ");
+            return 1.0 / tmp.length;
+        });
+
+        System.out.println("Rank:");
+        linksRDD.take(4).forEach(System.out::println);
+
         }
 }
