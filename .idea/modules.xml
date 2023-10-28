@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/WordCountScala.iml" filepath="$PROJECT_DIR$/.idea/modules/WordCountScala.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/WordCountScala-build.iml" filepath="$PROJECT_DIR$/.idea/modules/WordCountScala-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/java/java.iml" filepath="$PROJECT_DIR$/src/java/java.iml" />
     </modules>
   </component>
 </project>
